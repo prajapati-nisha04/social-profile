@@ -1,0 +1,129 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.name {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.bio {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.navbar {
+    background: #333;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.navbar ul li a:hover {
+    background: #fda085;
+    color: #333;
+    border-radius: 4px;
+}
+
+.section-content {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#about, #achievements, #projects, #social-media {
+    background: white;
+    margin: 20px 0;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.projects-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 30%;
+    background: #f6d365;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #333;
+    border-radius: 4px;
+}
+
+.social-icon.facebook { background: #3b5998; }
+.social-icon.twitter { background: #00aced; }
+.social-icon.instagram { background: #e4405f; }
+.social-icon.youtube { background: #c4302b; }
+
+.social-icon:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
